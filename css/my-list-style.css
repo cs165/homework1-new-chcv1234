@@ -46,13 +46,13 @@
 
 .flex-container
 {
-    display: inline-flex ;
+    display: flex ;
     /*border: 2px solid black;*/
     /*height: 750px ;*/
     margin: auto;
     flex-direction: row ;
     flex-wrap: wrap;
-    width: 1250px ;
+    width: 980px ;
     position: relative;
     align-content: flex-start;
     justify-content: center;
@@ -65,9 +65,9 @@
     background-color: purple ;
     margin : 5px ;
     height: 400px ;
-    width: 700px ;
+    width: 550px ;
     background-image: url("../images/zi-o.jpg");
-    background-size: 100% 100%;
+    background-size: cover;
 }
 
 .flex-item-geiz
@@ -77,7 +77,7 @@
     background-color: purple ;
     margin : 5px ;
     height: 400px ;
-    width: 700px ;
+    width: 550px ;
     background-image: url("../images/geiz.jpg");
     background-size: 100% 100%;
 }
@@ -89,7 +89,7 @@
     background-color: purple ;
     margin : 5px ;
     height: 400px ;
-    width: 700px ;
+    width: 550px ;
     background-image: url("../images/woz.jpg");
     background-size: 100% 100%;
 }
@@ -101,7 +101,7 @@
     background-color: purple ;
     margin : 5px ;
     height: 400px ;
-    width: 500px ;
+    width: 350px ;
 }
 
 .footer

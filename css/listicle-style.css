@@ -62,7 +62,7 @@
 
 .flex-container
 {
-    display: inline-flex ;
+    display: flex ;
     /*border: 2px solid black;*/
     /*height: 750px ;*/
     margin: auto;
@@ -85,7 +85,7 @@
     border-radius: 10px ;
     /*flex-grow: 1 ;*/
     /*background-color: purple ;*/
-    margin : 5px ;
+    /*margin : 5px ;*/
     height: 60px ;
 }
 
@@ -93,7 +93,7 @@
 {
     border-radius: 10px ;
     /*background-color: purple ;*/
-    margin : 5px ;
+    /*margin : 5px ;*/
     height: 20px;
 }
 
@@ -101,7 +101,7 @@
 {
     border-radius: 10px ;
     /*background-color: purple ;*/
-    margin : 5px ;
+    /*margin : 5px ;*/
     height: 120px;
 }
 
@@ -113,7 +113,8 @@
     color: rgba(0, 0, 0, 0.25);
     /*vertical-align: top;*/
     position: absolute;
-    left: -63.51px;
+    /*left: -63.51px;*/
+    right: calc( 100% + 40px ) ;
 }
 
 .body-head
