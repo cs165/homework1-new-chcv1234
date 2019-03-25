@@ -62,7 +62,6 @@
 {
     border-radius: 10px ;
     /*flex-grow: 1 ;*/
-    background-color: purple ;
     margin : 5px ;
     height: 400px ;
     width: 550px ;
@@ -74,7 +73,6 @@
 {
     border-radius: 10px ;
     /*flex-grow: 1 ;*/
-    background-color: purple ;
     margin : 5px ;
     height: 400px ;
     width: 550px ;
@@ -86,7 +84,6 @@
 {
     border-radius: 10px ;
     /*flex-grow: 1 ;*/
-    background-color: purple ;
     margin : 5px ;
     height: 400px ;
     width: 550px ;
@@ -98,7 +95,6 @@
 {
     border-radius: 10px ;
     /*flex-grow: 1 ;*/
-    background-color: purple ;
     margin : 5px ;
     height: 400px ;
     width: 350px ;
@@ -133,4 +129,19 @@
     color: rgb(51, 51, 51);
     text-align: left;
     font-weight: bold;
+}
+
+.flex-item-zio:hover
+{
+    opacity: 0.5;
+}
+
+.flex-item-geiz:hover
+{
+    opacity: 0.5;
+}
+
+.flex-item-woz:hover
+{
+    opacity: 0.5;
 }
