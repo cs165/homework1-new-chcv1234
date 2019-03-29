@@ -101,16 +101,7 @@
     text-align: left;
 }
 
-.footer
-{
-    height: 200px;
-    position: relative;
-    margin-top: -100px;
-    background-image: url("../images/title.jpg");
-    background-size: 100% 100%;
-    width: 400px;
-    margin: auto;
-}
+
 
 .body-head
 {
@@ -133,15 +124,54 @@
 
 .flex-item-zio:hover
 {
-    opacity: 0.5;
+    opacity: 0.8;
 }
 
 .flex-item-geiz:hover
 {
-    opacity: 0.5;
+    opacity: 0.8;
 }
 
 .flex-item-woz:hover
 {
-    opacity: 0.5;
+    opacity: 0.8;
+}
+
+body
+{
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url("../images/ridersicon.jpg ");
+    background-size: 100%;
+}
+
+.fixed, .wicon, .gicon
+{
+    position: fixed;
+    bottom: 20px;
+    height: 100px;
+    width: 100px;
+    border-radius: 25%;
+}
+
+.wicon
+{
+    background-image: url("../images/wozicon.jpg");
+    background-size: 100%;
+    right: 50px;
+}
+
+.gicon
+{
+    background-image: url("../images/geizicon.jpg");
+    background-size: 100%;
+    left: 50px;
+}
+
+.wicon:hover
+{
+    opacity: 0.8;
+}
+
+.gicon:hover
+{
+    opacity: 0.8;
 }
